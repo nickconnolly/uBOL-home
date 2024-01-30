@@ -1,16 +1,33 @@
 {
-  "action": {
-    "default_icon": {
-      "16": "img/icon_16.png",
-      "32": "img/icon_32.png",
-      "64": "img/icon_64.png"
-    },
-    "default_popup": "popup.html"
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "uBO Lite",
+  "version": "2024.1.29.1338",
+  "default_locale": "en",
+  "description": "__MSG_extShortDesc__",
+  "icons": {
+    "16": "img/icon_16.png",
+    "32": "img/icon_32.png",
+    "64": "img/icon_64.png",
+    "128": "img/icon_128.png"
   },
-  "author": "Raymond Hill",
   "background": {
     "service_worker": "/js/background.js",
-    "type": "module"
+    "type": "module",
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeNetRequest",
+    "scripting",
+    "storage"
+  ],
+  "optional_host_permissions": [
+    "<all_urls>"
+  ],
+  "options_page": "dashboard.html",
+  "storage": {
+    "managed_schema": "managed_storage.json"
   },
   "declarative_net_request": {
     "rule_resources": [
@@ -231,32 +248,6 @@
       }
     ]
   },
-  "default_locale": "en",
-  "description": "__MSG_extShortDesc__",
-  "icons": {
-    "16": "img/icon_16.png",
-    "32": "img/icon_32.png",
-    "64": "img/icon_64.png",
-    "128": "img/icon_128.png"
-  },
-  "manifest_version": 3,
-  "minimum_chrome_version": "105.0",
-  "name": "__MSG_extName__",
-  "options_page": "dashboard.html",
-  "optional_host_permissions": [
-    "<all_urls>"
-  ],
-  "permissions": [
-    "activeTab",
-    "declarativeNetRequest",
-    "scripting",
-    "storage"
-  ],
-  "short_name": "uBO Lite",
-  "storage": {
-    "managed_schema": "managed_storage.json"
-  },
-  "version": "2024.1.29.1338",
   "web_accessible_resources": [
     {
       "resources": [
