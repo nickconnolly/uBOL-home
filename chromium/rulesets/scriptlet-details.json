@@ -1168,6 +1168,7 @@
    [
     "adjust-setInterval",
     [
+     "cloud.majalahhewan.com",
      "info.gambar.pro",
      "info.mapsaddress.com",
      "info.vebma.com",
@@ -1177,6 +1178,7 @@
    [
     "prevent-fetch",
     [
+     "cloud.majalahhewan.com",
      "info.gambar.pro",
      "info.mapsaddress.com",
      "info.vebma.com",
@@ -1204,6 +1206,12 @@
      "kimcilonly.site",
      "kiryuu.id",
      "subindojav.cc"
+    ]
+   ],
+   [
+    "remove-class",
+    [
+     "okezone.com"
     ]
    ],
    [
@@ -4199,14 +4207,14 @@
      "cdnstream.sbs",
      "cliphot69.run",
      "cunghocvui.com",
-     "doctruyen3qup.com",
+     "doctruyen3qto.com",
      "downloadsachmienphi.com",
      "dualeotruyenme.com",
      "gamek.vn",
      "genk.vn",
      "gocphimvn.vip",
      "gotphim.com",
-     "hentai-vn.tv",
+     "hentaivn.vc",
      "hentaizz.vip",
      "heo69.top",
      "hh3dhay.com",
@@ -4231,10 +4239,11 @@
      "phimlongtieng.com",
      "phimlongtieng.net",
      "phimmoinay.tv",
+     "phimsex.bet",
      "phimsexhay669.co",
      "phimtho.net",
      "quatvn.club",
-     "rphang.co",
+     "rphang.ac",
      "soha.vn",
      "tctruyen.com",
      "tctruyen.net",
@@ -4256,14 +4265,13 @@
      "tuoitre.vn",
      "ungtycomicsvip.com",
      "vailonxx.com",
-     "viet69.red",
+     "viet69.li",
      "vlxx.xxx",
      "vlxyz.tv",
-     "vn2.sexphim1.com",
+     "vn3.sexphim1.com",
      "vungoctuan.vn",
      "www.toptruyenvi.info",
      "xemphimhdc.net",
-     "xemsex.moe",
      "xnxx-sex-videos.com",
      "yurineko.net"
     ]
@@ -4295,7 +4303,7 @@
      "phimvietsub.pro",
      "plvb.xyz",
      "quangcaoyenbai.com",
-     "sieudamtv.one",
+     "sieudamtv.cc",
      "thuvienhd.xyz",
      "tinsoikeo.vip",
      "truyenhentaivn.com",
@@ -4331,7 +4339,7 @@
      "kenh14.vn",
      "phimvietsub.pro",
      "phimvuihd.org",
-     "sexdiaryx.us",
+     "sexdiaryx.pro",
      "soha.vn",
      "subnhanh.xyz",
      "tailieumoi.vn",
@@ -6069,6 +6077,7 @@
      "automationafrica.co.za",
      "avell.com.br",
      "avonika.com",
+     "ayudatpymes.com",
      "ba.com",
      "babiesrus.ca",
      "babyshop.com",
@@ -6319,6 +6328,7 @@
      "emr.ch",
      "emuia1.gugik.gov.pl",
      "endclothing.com",
+     "endgame.id",
      "endlesstools.io",
      "enso.de",
      "equalexchange.co.uk",
@@ -6511,6 +6521,7 @@
      "haustier-berater.de",
      "havocpoint.it",
      "healthera.co.uk",
+     "healthygamer.gg",
      "heidegrill.com",
      "helitransair.com",
      "hello.one",
@@ -6547,6 +6558,7 @@
      "ing.it",
      "ing.nl",
      "innovationsstiftung-bildung.at",
+     "intergiro.com",
      "intermatic.com",
      "internetpasoapaso.com",
      "ipouritinc.com",
@@ -6946,6 +6958,8 @@
      "taste-market.de",
      "teenage.engineering",
      "teket.jp",
+     "telepizza.es",
+     "telepizza.pt",
      "tempo.com",
      "tempo.pt",
      "tenvinilo-argentina.com",
@@ -7483,6 +7497,31 @@
     ]
    ],
    [
+    "remove-cookie",
+    [
+     "ac-illust.com",
+     "androidpolice.com",
+     "cbr.com",
+     "cookpad.com",
+     "cookpad.es",
+     "dualshockers.com",
+     "gamerant.com",
+     "howtogeek.com",
+     "jungefreiheit.de",
+     "makeuseof.com",
+     "movieweb.com",
+     "novagente.pt",
+     "photo-ac.com",
+     "screenrant.com",
+     "simpleflying.com",
+     "stackshare.io",
+     "technologyreview.jp",
+     "thegamer.com",
+     "thethings.com",
+     "xda-developers.com"
+    ]
+   ],
+   [
     "set-session-storage-item",
     [
      "1mg.com",
@@ -7504,30 +7543,6 @@
      "selenagomez.com",
      "upbeatcode.com",
      "zonealarm.com"
-    ]
-   ],
-   [
-    "remove-cookie",
-    [
-     "ac-illust.com",
-     "androidpolice.com",
-     "cbr.com",
-     "cookpad.com",
-     "cookpad.es",
-     "dualshockers.com",
-     "gamerant.com",
-     "howtogeek.com",
-     "makeuseof.com",
-     "movieweb.com",
-     "novagente.pt",
-     "photo-ac.com",
-     "screenrant.com",
-     "simpleflying.com",
-     "stackshare.io",
-     "technologyreview.jp",
-     "thegamer.com",
-     "thethings.com",
-     "xda-developers.com"
     ]
    ],
    [

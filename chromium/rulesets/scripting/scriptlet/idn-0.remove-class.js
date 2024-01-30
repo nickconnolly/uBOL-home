@@ -25,7 +25,7 @@
 
 'use strict';
 
-// ruleset: tur-0
+// ruleset: idn-0
 
 /******************************************************************************/
 
@@ -38,78 +38,75 @@
 /******************************************************************************/
 
 // Start of code to inject
-const uBOL_addEventListenerDefuser = function() {
+const uBOL_removeClass = function() {
 
 const scriptletGlobals = {}; // jshint ignore: line
 
-const argsList = [["click","checkTarget"],["click","popundr"],["click","showPop"],["click","window.open"],["","getPopupTarget"]];
+const argsList = [["content-wrap"]];
 
-const hostnamesMap = new Map([["720pfilmizleme1.com",0],["720pfilmizletir.com",0],["1080pfilmizletir.com",0],["720pfilmizlesene.com",0],["diziwatch.net",0],["fullhd720pizle.live",0],["videoseyred.in",0],["hdfilmcehennem.live",0],["720pvkizle.com",1],["eescobarvip.com",1],["dizirix.net",2],["filmizle720p.net",3]]);
+const hostnamesMap = new Map([["okezone.com",0]]);
 
-const entitiesMap = new Map([["filmmakinesi1",0],["yabancidizitv",0],["filmizlemax",0],["torrentarsivi",4]]);
+const entitiesMap = new Map([]);
 
 const exceptionsMap = new Map([]);
 
 /******************************************************************************/
 
-function addEventListenerDefuser(
-    type = '',
-    pattern = ''
+function removeClass(
+    token = '',
+    selector = '',
+    behavior = ''
 ) {
-    const safe = safeSelf();
-    const logPrefix = safe.makeLogPrefix('prevent-addEventListener', type, pattern);
-    const extraArgs = safe.getExtraArgs(Array.from(arguments), 2);
-    const reType = safe.patternToRegex(type, undefined, true);
-    const rePattern = safe.patternToRegex(pattern);
-    const debug = shouldDebug(extraArgs);
-    const targetSelector = extraArgs.elements || undefined;
-    const shouldPrevent = (thisArg, type, handler) => {
-        if ( targetSelector !== undefined ) {
-            const elems = Array.from(document.querySelectorAll(targetSelector));
-            if ( elems.includes(thisArg) === false ) { return false; }
+    if ( typeof token !== 'string' ) { return; }
+    if ( token === '' ) { return; }
+    const classTokens = token.split(/\s*\|\s*/);
+    if ( selector === '' ) {
+        selector = '.' + classTokens.map(a => CSS.escape(a)).join(',.');
+    }
+    const mustStay = /\bstay\b/.test(behavior);
+    let timer;
+    const rmclass = function() {
+        timer = undefined;
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for ( const node of nodes ) {
+                node.classList.remove(...classTokens);
+            }
+        } catch(ex) {
         }
-        const matchesType = safe.RegExp_test.call(reType, type);
-        const matchesHandler = safe.RegExp_test.call(rePattern, handler);
-        const matchesEither = matchesType || matchesHandler;
-        const matchesBoth = matchesType && matchesHandler;
-        if ( debug === 1 && matchesBoth || debug === 2 && matchesEither ) {
-            debugger; // jshint ignore:line
-        }
-        return matchesBoth;
+        if ( mustStay ) { return; }
+        if ( document.readyState !== 'complete' ) { return; }
+        observer.disconnect();
     };
-    const trapEddEventListeners = ( ) => {
-        const eventListenerHandler = {
-            apply: function(target, thisArg, args) {
-                let t, h;
-                try {
-                    t = String(args[0]);
-                    h = args[1] instanceof Function
-                        ? String(safe.Function_toString(args[1]))
-                        : String(args[1]);
-                } catch(ex) {
-                }
-                if ( type === '' && pattern === '' ) {
-                    safe.uboLog(logPrefix, `Called: ${t}\n${h}`);
-                } else if ( shouldPrevent(thisArg, t, h) ) {
-                    return safe.uboLog(logPrefix, `Prevented: ${t}\n${h}`);
-                }
-                return Reflect.apply(target, thisArg, args);
-            },
-            get(target, prop, receiver) {
-                if ( prop === 'toString' ) {
-                    return target.toString.bind(target);
-                }
-                return Reflect.get(target, prop, receiver);
-            },
-        };
-        self.EventTarget.prototype.addEventListener = new Proxy(
-            self.EventTarget.prototype.addEventListener,
-            eventListenerHandler
-        );
+    const mutationHandler = mutations => {
+        if ( timer !== undefined ) { return; }
+        let skip = true;
+        for ( let i = 0; i < mutations.length && skip; i++ ) {
+            const { type, addedNodes, removedNodes } = mutations[i];
+            if ( type === 'attributes' ) { skip = false; }
+            for ( let j = 0; j < addedNodes.length && skip; j++ ) {
+                if ( addedNodes[j].nodeType === 1 ) { skip = false; break; }
+            }
+            for ( let j = 0; j < removedNodes.length && skip; j++ ) {
+                if ( removedNodes[j].nodeType === 1 ) { skip = false; break; }
+            }
+        }
+        if ( skip ) { return; }
+        timer = self.requestIdleCallback(rmclass, { timeout: 67 });
+    };
+    const observer = new MutationObserver(mutationHandler);
+    const start = ( ) => {
+        rmclass();
+        observer.observe(document, {
+            attributes: true,
+            attributeFilter: [ 'class' ],
+            childList: true,
+            subtree: true,
+        });
     };
     runAt(( ) => {
-        trapEddEventListeners();
-    }, extraArgs.runAt);
+        start();
+    }, /\bcomplete\b/.test(behavior) ? 'idle' : 'loading');
 }
 
 function runAt(fn, when) {
@@ -292,11 +289,6 @@ function safeSelf() {
     return safe;
 }
 
-function shouldDebug(details) {
-    if ( details instanceof Object === false ) { return false; }
-    return scriptletGlobals.canDebug && details.debug;
-}
-
 /******************************************************************************/
 
 const hnParts = [];
@@ -357,7 +349,7 @@ if ( entitiesMap.size !== 0 ) {
 
 // Apply scriplets
 for ( const i of todoIndices ) {
-    try { addEventListenerDefuser(...argsList[i]); }
+    try { removeClass(...argsList[i]); }
     catch(ex) {}
 }
 argsList.length = 0;
@@ -375,11 +367,11 @@ argsList.length = 0;
 //   'MAIN' world not yet supported in Firefox, so we inject the code into
 //   'MAIN' ourself when environment in Firefox.
 
-const targetWorld = 'MAIN';
+const targetWorld = 'ISOLATED';
 
 // Not Firefox
 if ( typeof wrappedJSObject !== 'object' || targetWorld === 'ISOLATED' ) {
-    return uBOL_addEventListenerDefuser();
+    return uBOL_removeClass();
 }
 
 // Firefox
@@ -387,11 +379,11 @@ if ( typeof wrappedJSObject !== 'object' || targetWorld === 'ISOLATED' ) {
     const page = self.wrappedJSObject;
     let script, url;
     try {
-        page.uBOL_addEventListenerDefuser = cloneInto([
-            [ '(', uBOL_addEventListenerDefuser.toString(), ')();' ],
+        page.uBOL_removeClass = cloneInto([
+            [ '(', uBOL_removeClass.toString(), ')();' ],
             { type: 'text/javascript; charset=utf-8' },
         ], self);
-        const blob = new page.Blob(...page.uBOL_addEventListenerDefuser);
+        const blob = new page.Blob(...page.uBOL_removeClass);
         url = page.URL.createObjectURL(blob);
         const doc = page.document;
         script = doc.createElement('script');
@@ -405,7 +397,7 @@ if ( typeof wrappedJSObject !== 'object' || targetWorld === 'ISOLATED' ) {
         if ( script ) { script.remove(); }
         page.URL.revokeObjectURL(url);
     }
-    delete page.uBOL_addEventListenerDefuser;
+    delete page.uBOL_removeClass;
 }
 
 /******************************************************************************/

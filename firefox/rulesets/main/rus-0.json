@@ -2801,7 +2801,7 @@
 {"action":{"type":"block"},"condition":{"urlFilter":"||voxpopuli.kz/pub/banners/img/"},"id":2804},
 {"action":{"type":"block"},"condition":{"urlFilter":"||voxpopuli.kz/userfiles/branding/"},"id":2805},
 {"action":{"type":"block"},"condition":{"urlFilter":"||vozmi.net/img/*150x250"},"id":2806},
-{"action":{"type":"block"},"condition":{"initiatorDomains":["livejournal.com"],"urlFilter":"||vp.rambler.ru/player/*/player.html#docking="},"id":2807},
+{"action":{"type":"block"},"condition":{"excludedInitiatorDomains":["vp.rambler.ru"],"initiatorDomains":["livejournal.com","rambler.ru"],"urlFilter":"||vp.rambler.ru/player/*/player.html#docking"},"id":2807},
 {"action":{"type":"block"},"condition":{"urlFilter":"||vplate.ru/bundles/adblock-checker-js"},"id":2808},
 {"action":{"type":"block"},"condition":{"urlFilter":"||vremya-sovetov.ru/rek"},"id":2809},
 {"action":{"type":"block"},"condition":{"urlFilter":"||vrgames.by^*/banners/"},"id":2810},

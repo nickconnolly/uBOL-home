@@ -1,28 +1,28 @@
-Version: 2024.1.29.1338
-Secret: ae73ac64162f5446
+Version: 2024.1.30.1028
+Secret: 0dbf632312f7f33d
 ============================
 Listset for 'default':
 	Fetched local https://ublockorigin.github.io/uAssets/filters/privacy.min.txt
-	Fetched local https://ublockorigin.github.io/uAssets/filters/badware.txt
+	Fetched local https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt
 	Fetched local https://ublockorigin.github.io/uAssets/filters/ubol-filters.txt
 	Fetched local https://ublockorigin.github.io/uAssets/filters/unbreak.min.txt
-	Fetched local https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt
+	Fetched local https://ublockorigin.github.io/uAssets/filters/badware.txt
 	Fetched local https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 	Fetched local https://ublockorigin.github.io/uAssets/filters/filters.min.txt
 	Fetched local https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 	Fetched local https://ublockorigin.github.io/uAssets/thirdparties/easylist.txt
-Input filter count: 108650
-	Accepted filter count: 107041
-	Rejected filter count: 138
-Output rule count: 16278
-	Pruning requestDomains: from 71201 to 70997
-	Pruning requestDomains: from 2674 to 2673
-	Pruning requestDomains: from 5912 to 5908
+Input filter count: 108696
+	Accepted filter count: 107088
+	Rejected filter count: 137
+Output rule count: 16276
+	Pruning requestDomains: from 71240 to 71036
+	Pruning requestDomains: from 2675 to 2674
+	Pruning requestDomains: from 5913 to 5909
 	Fetched local https://ublockorigin.github.io/uAssets/dnr/default.json
 	Plain good: 14658
 		Salvaged rule by ignoring 1 unsupported domain= option: erotic-beauties.com|hardsex.cc|rule34.top|sex-movies.biz|tube18.sexy|xvideos.name|booru.*
-		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
-		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
+		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
+		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
 		Salvaged rule by ignoring 1 unsupported domain= option: 8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|wantedbabes.com|silkengirl.*
 		Salvaged rule by ignoring 1 unsupported domain= option: web.de|gmx.*
 		Salvaged rule by ignoring 1 unsupported domain= option: 8boobs.com|babesinporn.com|fooxybabes.com|hotstunners.com|mainbabes.com|pleasuregirl.net|rabbitsfun.com|wantedbabes.com|silkengirl.*
@@ -30,10 +30,10 @@ Output rule count: 16278
 		Salvaged rule by ignoring 1 unsupported domain= option: vtplay.net|vtplayer.net|vtube.network|vtube.to|vtbe.*
 		Salvaged rule by ignoring 1 unsupported domain= option: piraproxy.app|unblocksite.pw|theproxy.*
 		Salvaged rule by ignoring 1 unsupported domain= option: androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ebooksite.org|emulatorsite.com|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net|sitesunblocked.*
-		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
-		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
+		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
+		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
 		Salvaged rule by ignoring 11 unsupported domain= option: clik.pw|1ink.cc|pornfay.*|picbaron.com|bit-url.com|sexvid.*|sexrura.pl|dlink2.net|isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*|torrentproject2.*
-		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com|webnovel.com
+		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|webnovel.com
 		Salvaged rule by ignoring 1 unsupported domain= option: torrentproject2.*|click.allkeyshop.com
 		Salvaged rule by ignoring 4 unsupported domain= option: 0gomovies.*|cdn1.fastvid.co|cdnqq.net|movi.pk|ncdn22.xyz|netu.ac|player.msmini.*|player.sbnmp.*|vapley.*
 		Salvaged rule by ignoring 1 unsupported domain= option: d3ward.github.io|direct-cloud.*
@@ -45,7 +45,7 @@ Output rule count: 16278
 		Salvaged rule by ignoring 1 unsupported domain= option: tgx.rs|torrentgalaxy.*
 		Salvaged rule by ignoring 8 unsupported domain= option: adbull.org|zdnet.fr|imgsen.com|titsbox.com|senmanga.com|hitomi.la|mangovideo.*|imgdawgknuttz.com|deltabit.co|bolly4umovies.*|gaybeeg.info|lovelynudez.com|classicpornbest.com|songsio.com|skymovieshd.*|topwwnews.com|elsfile.org|javdoe.to|javtc.*|webmusic.*|pics4you.net|kiwiexploits.com|pornxp.com|silverpic.com|suicidepics.com|tanix.net|freeuseporn.com|ukrainesmodels.com|freeadultcomix.com|xxxwebdlxxx.top|uproxy2.biz|crownimg.com|masaporn.xyz|dvdplay.*|mangaraw.org|imgstar.eu|imgsto.*|picdollar.com|pics4upload.com|amateurblog.tv|fashionblog.tv|latinblog.tv|silverblog.tv|tokyoblog.tv|xblog.tv|maxsport.one|sportz.football|streamgo.to|streamgoto.*|imwatchingmovies.com|zinchanmanga.com|vidoza.co|vidoza.net|govid.co|up-4ever.net|abcvideo.cc|ouo.io|ouo.press|imgbox.com|pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay10.org
 		Salvaged rule by ignoring 1 unsupported domain= option: ceesty.com|corneey.com|destyy.com|festyy.com|gestyy.com|hd-easyporn.com|bolly4umovies.*|pcgamez-download.com|torrentvhd.biz|lovelynudez.com|gayforit.eu|movieston.com|kiwiexploits.com|dropload.io|nsfwyoutube.com|pomvideo.cc|steampiay.cc|vidoza.co|vidoza.net|govid.co|up-4ever.net|abcvideo.cc|ouo.io|ouo.press|pirateproxy.live|thehiddenbay.com|thepiratebay10.org|opensubtitles.org
-		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
+		Salvaged rule by ignoring 19 unsupported domain= option: fullxh.com|hamsterix.*|megaxh.com|movingxh.world|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
 		Salvaged rule by ignoring 1 unsupported domain= option: cpmlink.net|mwpaste.com|lusthero.com|22pixx.xyz|goto.com.np|imgtorrnt.in|9ig.de|pingit.im|pngit.live|elil.cc|imgdawgknuttz.com|vev.red|vidop.icu|vidup.io|pornclassic.tube|tubepornclassic.com|ironysub.net|bolly4umovies.*|pcgamez-download.com|curto.win|freeadultcomix.com|xxxwebdlxxx.top|crownimg.com|pomvideo.cc|steampiay.cc|bc.vc|vidoza.co|vidoza.net|pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay10.org
 		Salvaged rule by ignoring 2 unsupported domain= option: gentside.*|ohmymag.*|maxisciences.com
 		Salvaged rule by ignoring 2 unsupported domain= option: gentside.*|ohmymag.*|maxisciences.com
@@ -70,7 +70,7 @@ Output rule count: 16278
 	redirect=: 354
 	removeparams= (accepted/discarded): 49/10
 	modifyHeaders=: 57
-	Unsupported: 1010
+	Unsupported: 1008
 		Can't salvage rule with unsupported domain= option: vidmoly.*
 		Can't salvage rule with unsupported domain= option: megalink.*
 		Can't salvage rule with unsupported domain= option: gplinks.*
@@ -133,7 +133,6 @@ Output rule count: 16278
 		FilterStrictParty: Strict partyness strict1p not supported
 		Can't salvage rule with unsupported domain= option: uptomega.*
 		Can't salvage rule with unsupported domain= option: uplinkto.*
-		Can't salvage rule with unsupported domain= option: shrinkme.*
 		Can't salvage rule with unsupported domain= option: link1s.*
 		Can't salvage rule with unsupported domain= option: moviesda1.*
 		Can't salvage rule with unsupported domain= option: dloader.*
@@ -179,7 +178,6 @@ Output rule count: 16278
 		Can't salvage rule with unsupported domain= option: pelispedia.*
 		Can't salvage rule with unsupported domain= option: btdb.*
 		Can't salvage rule with unsupported domain= option: miniurl.*
-		Can't salvage rule with unsupported domain= option: shrinke.*
 		Can't salvage rule with unsupported domain= option: uploadhub.*
 		Can't salvage rule with unsupported domain= option: bollyflix.*
 		Can't salvage rule with unsupported domain= option: veranime.*|verhentai.*
@@ -275,6 +273,7 @@ Output rule count: 16278
 		Can't salvage rule with unsupported domain= option: audible.*
 		Can't salvage rule with unsupported domain= option: savethechildren.*
 		Can't salvage rule with unsupported domain= option: costco.*
+		Can't salvage rule with unsupported domain= option: dropgalaxy.*
 		Can't salvage rule with unsupported domain= option: dropgalaxy.*
 		Can't salvage rule with unsupported domain= option: dropgalaxy.*
 		Can't salvage rule with unsupported domain= option: dropgalaxy.*
@@ -518,7 +517,7 @@ Output rule count: 16278
 		Incompatible with DNR: *$xhr,domain=infinityscans.xyz|infinityscans.net,redirect-rule=nooptext
 		Incompatible with DNR: *$frame,redirect-rule=noopframe,domain=infinityscans.xyz|infinityscans.net
 		Incompatible with DNR: *$image,redirect-rule=1x1.gif,domain=infinityscans.xyz|infinityscans.net
-		Incompatible with DNR: *$frame,redirect-rule=noopframe,domain=gplinks.co|bharatsarkarijobalert.com|seobar.in|rktemplates.in|odiasongmuzic.com|mktechword.com|picassoappk.com|finley-aaron-love.com|bmremix.in|sbkeditsofficials.in
+		Incompatible with DNR: *$frame,redirect-rule=noopframe,domain=gplinks.co|bharatsarkarijobalert.com|seobar.in|rktemplates.in|odiasongmuzic.com|mktechword.com|picassoappk.com|finley-aaron-love.com|bmremix.in|sbkeditsofficials.in|acejankari.com|odishadjss.in
 		Incompatible with DNR: *$image,domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in,redirect-rule=1x1.gif
 		Incompatible with DNR: ||player.aniview.com/script/*$script,redirect-rule=noopjs,domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in
 		Incompatible with DNR: *$script,domain=gainbtc.*,redirect-rule=noopjs
@@ -915,7 +914,6 @@ Output rule count: 16278
 		Incompatible with DNR: ||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,3p,redirect-rule=noopjs,domain=mtv.com
 		Incompatible with DNR: *$script,redirect-rule=noopjs,domain=zive.cz
 		Incompatible with DNR: ||fusevideo.io^$xhr,1p,redirect-rule=noopjs
-		Incompatible with DNR: *$xhr,redirect-rule=nooptext,domain=axenthost.com
 		Incompatible with DNR: ||pornkinky.com^$image,1p,redirect-rule=1x1.gif
 		Incompatible with DNR: ||teads.tv^$3p,script,redirect-rule=noop.js,from=tf1info.fr
 		Incompatible with DNR: ||googleads.g.doubleclick.net/pagead^$frame,3p,redirect-rule=noopframe,domain=fplstatistics.co.uk
@@ -1083,15 +1081,15 @@ Output rule count: 16278
 		Rejected filter: redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 CSS-generic: 15578 plain CSS selectors
 CSS-generic-high: 599 plain CSS selectors
-CSS-specific: 10061 distinct filters
-	Combined into 9633 distinct hostnames
+CSS-specific: 10064 distinct filters
+	Combined into 9668 distinct hostnames
 	Combined into 498 distinct entities
 CSS-declarative: 473 distinct filters
-	Combined into 758 distinct hostnames
+	Combined into 759 distinct hostnames
 	Combined into 50 distinct entities
-Procedural-related distinct filters: 1276 distinct combined selectors
-	Combined into 1926 distinct hostnames
-	Combined into 125 distinct entities
+Procedural-related distinct filters: 1277 distinct combined selectors
+	Combined into 1930 distinct hostnames
+	Combined into 124 distinct entities
 ============================
 Listset for 'alb-0':
 	Fetched local https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt
@@ -1141,13 +1139,13 @@ CSS-specific: 360 distinct filters
 ============================
 Listset for 'chn-0':
 	Fetched local https://filters.adtidy.org/extension/ublock/filters/224.txt
-Input filter count: 14919
-	Accepted filter count: 14857
+Input filter count: 14775
+	Accepted filter count: 14713
 	Rejected filter count: 2
-Output rule count: 6565
-	Pruning requestDomains: from 5539 to 5532
-	Pruning requestDomains: from 475 to 473
-	Plain good: 6499
+Output rule count: 6479
+	Pruning requestDomains: from 5495 to 5488
+	Pruning requestDomains: from 471 to 469
+	Plain good: 6413
 
 	Maybe good (regexes): 12
 	redirect=: 40
@@ -1160,10 +1158,10 @@ Output rule count: 6565
 		Unsupported csp exception: script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 		Invalid network filter in chn-0: @@||ad.alimama.com^$genericblock
 		Invalid network filter in chn-0: @@||cmechina.net^$genericblock
-CSS-generic: 787 plain CSS selectors
+CSS-generic: 786 plain CSS selectors
 CSS-generic-high: 245 plain CSS selectors
-CSS-specific: 6484 distinct filters
-	Combined into 2840 distinct hostnames
+CSS-specific: 6450 distinct filters
+	Combined into 2817 distinct hostnames
 	Combined into 1 distinct entities
 CSS-declarative: 80 distinct filters
 	Combined into 110 distinct hostnames
@@ -1220,8 +1218,8 @@ Output rule count: 1813
 		Invalid network filter in deu-0: @@||gofeminin.de^$genericblock
 CSS-generic: 355 plain CSS selectors
 CSS-generic-high: 35 plain CSS selectors
-CSS-specific: 2430 distinct filters
-	Combined into 1821 distinct hostnames
+CSS-specific: 2432 distinct filters
+	Combined into 1822 distinct hostnames
 	Combined into 0 distinct entities
 Procedural-related distinct filters: 176 distinct combined selectors
 	Combined into 130 distinct hostnames
@@ -1280,14 +1278,14 @@ Output rule count: 6598
 		Unsupported csp exception: worker-src 'none'
 CSS-generic: 2421 plain CSS selectors
 CSS-generic-high: 523 plain CSS selectors
-CSS-specific: 2246 distinct filters
-	Combined into 1672 distinct hostnames
+CSS-specific: 2247 distinct filters
+	Combined into 1673 distinct hostnames
 	Combined into 3 distinct entities
-CSS-declarative: 40 distinct filters
-	Combined into 41 distinct hostnames
+CSS-declarative: 41 distinct filters
+	Combined into 42 distinct hostnames
 	Combined into 1 distinct entities
-Procedural-related distinct filters: 181 distinct combined selectors
-	Combined into 206 distinct hostnames
+Procedural-related distinct filters: 182 distinct combined selectors
+	Combined into 207 distinct hostnames
 	Combined into 0 distinct entities
 ============================
 Listset for 'grc-0':
@@ -1385,14 +1383,14 @@ Output rule count: 3089
 		Can't salvage rule with unsupported domain= option: oploverz.*
 CSS-generic: 241 plain CSS selectors
 CSS-generic-high: 3631 plain CSS selectors
-CSS-specific: 855 distinct filters
-	Combined into 706 distinct hostnames
+CSS-specific: 854 distinct filters
+	Combined into 708 distinct hostnames
 	Combined into 20 distinct entities
 CSS-declarative: 2 distinct filters
 	Combined into 2 distinct hostnames
 	Combined into 0 distinct entities
-Procedural-related distinct filters: 24 distinct combined selectors
-	Combined into 17 distinct hostnames
+Procedural-related distinct filters: 26 distinct combined selectors
+	Combined into 18 distinct hostnames
 	Combined into 0 distinct entities
 ============================
 Listset for 'ind-0':
@@ -1514,7 +1512,7 @@ Output rule count: 257
 		Incompatible with DNR: ||doubleclick.net^$xhr,redirect-rule=nooptext,domain=13news.co.il|13tv.co.il
 CSS-generic: 5 plain CSS selectors
 CSS-specific: 495 distinct filters
-	Combined into 340 distinct hostnames
+	Combined into 344 distinct hostnames
 	Combined into 0 distinct entities
 CSS-declarative: 4 distinct filters
 	Combined into 4 distinct hostnames
@@ -1548,11 +1546,11 @@ Procedural-related distinct filters: 26 distinct combined selectors
 ============================
 Listset for 'jpn-1':
 	Fetched local https://filters.adtidy.org/extension/ublock/filters/7.txt
-Input filter count: 1989
-	Accepted filter count: 1989
+Input filter count: 1990
+	Accepted filter count: 1990
 	Rejected filter count: 0
-Output rule count: 1414
-	Plain good: 1361
+Output rule count: 1415
+	Plain good: 1362
 
 	Maybe good (regexes): 17
 	redirect=: 24
@@ -1573,8 +1571,8 @@ Output rule count: 1414
 		Incompatible with DNR: ||fundingchoicesmessages.google.com^$script,redirect-rule=noop.js,domain=rocketnews24.com|youpouch.com
 CSS-generic: 119 plain CSS selectors
 CSS-generic-high: 11 plain CSS selectors
-CSS-specific: 5967 distinct filters
-	Combined into 4211 distinct hostnames
+CSS-specific: 5972 distinct filters
+	Combined into 4218 distinct hostnames
 	Combined into 7 distinct entities
 CSS-declarative: 186 distinct filters
 	Combined into 161 distinct hostnames
@@ -1595,18 +1593,18 @@ Listset for 'kor-1':
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/allowlist.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/extended_css_ELEMHIDE.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/extended_css_INJECTION.txt
+	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_ELEMHIDE.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_REDIRECT.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/extended_css_ELEMHIDE.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/extended_css_INJECTION.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/scriptlets.txt
-	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_ELEMHIDE.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/javascript.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/javascript.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/antiadblock.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/removeparam.txt
-	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/allowlist.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_CSS.txt
 	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_CSS.txt
+	Fetched local https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/allowlist.txt
 Input filter count: 1358
 	Accepted filter count: 1352
 	Rejected filter count: 0
@@ -1646,8 +1644,8 @@ Output rule count: 992
 		Rejected filter: mlbpark.donga.com#$#div[id^="SmartPhone_"][id$="_today"] .lists > li:before { padding-top: 0px !important; border-bottom: none !important; }
 CSS-generic: 12 plain CSS selectors
 CSS-generic-high: 71 plain CSS selectors
-CSS-specific: 1158 distinct filters
-	Combined into 1473 distinct hostnames
+CSS-specific: 1159 distinct filters
+	Combined into 1474 distinct hostnames
 	Combined into 6 distinct entities
 CSS-declarative: 173 distinct filters
 	Combined into 162 distinct hostnames
@@ -1733,10 +1731,10 @@ Listset for 'nld-0':
 	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Block_Resources.txt
 	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Block_Whitelist.txt
 	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Hide_General.txt
-	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Hide_Specific.txt
 	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Hide_Whitelist.txt
 	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Anti-Adblock.txt
 	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/NSFW.txt
+	Fetched local https://easydutch-ubo.github.io/EasyDutch/EasyDutch/Hide_Specific.txt
 Input filter count: 646
 	Accepted filter count: 646
 	Rejected filter count: 0
@@ -1916,7 +1914,7 @@ CSS-specific: 9301 distinct filters
 CSS-declarative: 915 distinct filters
 	Combined into 905 distinct hostnames
 	Combined into 0 distinct entities
-Procedural-related distinct filters: 840 distinct combined selectors
+Procedural-related distinct filters: 841 distinct combined selectors
 	Combined into 827 distinct hostnames
 	Combined into 0 distinct entities
 ============================
@@ -1968,7 +1966,7 @@ Output rule count: 993
 CSS-generic: 85 plain CSS selectors
 CSS-generic-high: 2 plain CSS selectors
 CSS-specific: 2504 distinct filters
-	Combined into 1499 distinct hostnames
+	Combined into 1500 distinct hostnames
 	Combined into 6 distinct entities
 CSS-declarative: 101 distinct filters
 	Combined into 152 distinct hostnames
@@ -2016,9 +2014,9 @@ Output rule count: 1217
 		Unsupported regex-based removeParam: /^browser/
 		Unsupported regex-based removeParam: /^utm_/
 		Incompatible with DNR: ||maxetise.net^$script,redirect-rule=noop.js,domain=feber.se|tjock.se
-CSS-generic: 202 plain CSS selectors
+CSS-generic: 203 plain CSS selectors
 CSS-generic-high: 42 plain CSS selectors
-CSS-specific: 672 distinct filters
+CSS-specific: 673 distinct filters
 	Combined into 1166 distinct hostnames
 	Combined into 1 distinct entities
 CSS-declarative: 80 distinct filters
@@ -2053,11 +2051,11 @@ Procedural-related distinct filters: 117 distinct combined selectors
 ============================
 Listset for 'tur-0':
 	Fetched local https://filters.adtidy.org/extension/ublock/filters/13.txt
-Input filter count: 1588
-	Accepted filter count: 1588
+Input filter count: 1512
+	Accepted filter count: 1512
 	Rejected filter count: 0
-Output rule count: 1191
-	Plain good: 1131
+Output rule count: 1190
+	Plain good: 1130
 		Salvaged rule by ignoring 2 unsupported domain= option: ajans32.com|asyadiziizle.com|balfilmizle1.com|birasyadizi.com|buyuktorbali.com|dizicaps.*|dizilost.com|duzcetv.com|erotikfilmtube.com|ertehaber.com|filmjr1.com|filmsezonu.com|haber32.com.tr|haberant.com|hdfilmizleamk.*|jokerfilmizle.com|kozfilm.com|malatyamegahaber.com|medya32.com|sexfilmleriizle.com|sinemangoo.org|technopat.net|unyenethaber.com|zerotikk.com
 		Salvaged rule by ignoring 2 unsupported domain= option: 720pizle.*|diziroll.*|roketdizi.co
 		Salvaged rule by ignoring 1 unsupported domain= option: fullhdfilm.pro|fullhdfilmizle5.*
@@ -2099,13 +2097,13 @@ Output rule count: 1191
 		Rejected filter: [$domain=/^trgoals\d+\.xyz$/]###yayinSection > marquee
 		Rejected filter: [$domain=/^trgoals\d+\.xyz$/]##.topDuyuru
 		Rejected filter: [$domain=/^trgoals\d+\.xyz$/]##.contentReklam
-CSS-generic: 151 plain CSS selectors
+CSS-generic: 153 plain CSS selectors
 CSS-generic-high: 63 plain CSS selectors
-CSS-specific: 2903 distinct filters
-	Combined into 2720 distinct hostnames
+CSS-specific: 2894 distinct filters
+	Combined into 2709 distinct hostnames
 	Combined into 46 distinct entities
-CSS-declarative: 147 distinct filters
-	Combined into 512 distinct hostnames
+CSS-declarative: 144 distinct filters
+	Combined into 508 distinct hostnames
 	Combined into 23 distinct entities
 Procedural-related distinct filters: 194 distinct combined selectors
 	Combined into 180 distinct hostnames
@@ -2127,8 +2125,8 @@ Output rule count: 345
 
 CSS-generic: 11 plain CSS selectors
 CSS-generic-high: 4 plain CSS selectors
-CSS-specific: 764 distinct filters
-	Combined into 488 distinct hostnames
+CSS-specific: 754 distinct filters
+	Combined into 484 distinct hostnames
 	Combined into 0 distinct entities
 CSS-declarative: 5 distinct filters
 	Combined into 6 distinct hostnames
@@ -2170,17 +2168,17 @@ Output rule count: 1
 ============================
 Listset for 'adguard-spyware-url':
 	Fetched local https://filters.adtidy.org/extension/ublock/filters/17.txt
-Input filter count: 1427
-	Accepted filter count: 1422
+Input filter count: 1432
+	Accepted filter count: 1427
 	Rejected filter count: 0
-Output rule count: 540
+Output rule count: 539
 	Plain good: 0
 
 	Maybe good (regexes): 0
 	redirect=: 0
-	removeparams= (accepted/discarded): 443/97
+	removeparams= (accepted/discarded): 443/96
 	modifyHeaders=: 0
-	Unsupported: 97
+	Unsupported: 96
 		Unsupported regex-based removeParam: /^at_custom/
 		Unsupported regex-based removeParam: /^cm_mmc/
 		Unsupported regex-based removeParam: /^__s=[A-Za-z0-9]{6\,}/
@@ -2246,7 +2244,6 @@ Output rule count: 540
 		Unsupported removeparam exception: 
 		Unsupported removeparam exception: 
 		Unsupported removeparam exception: 
-		Unsupported removeparam exception: 
 		Unsupported removeparam exception: utm_source
 		Unsupported removeparam exception: utm_source
 		Unsupported removeparam exception: utm_source
@@ -2285,11 +2282,11 @@ CSS-specific: 1 distinct filters
 Listset for 'annoyances-cookies':
 	Fetched local https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt
 	Fetched local https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
-Input filter count: 1808
-	Accepted filter count: 1808
+Input filter count: 1809
+	Accepted filter count: 1809
 	Rejected filter count: 0
-Output rule count: 1518
-	Plain good: 1516
+Output rule count: 1519
+	Plain good: 1517
 
 	Maybe good (regexes): 1
 	redirect=: 0
@@ -2299,11 +2296,11 @@ Output rule count: 1518
 		Incompatible with DNR: ||clickio.mgr.consensu.org^$script,redirect-rule=noop.js,domain=mdn.lol
 CSS-generic: 16954 plain CSS selectors
 CSS-generic-high: 351 plain CSS selectors
-CSS-specific: 5719 distinct filters
-	Combined into 17085 distinct hostnames
+CSS-specific: 5722 distinct filters
+	Combined into 17091 distinct hostnames
 	Combined into 3 distinct entities
 CSS-declarative: 57 distinct filters
-	Combined into 5274 distinct hostnames
+	Combined into 5276 distinct hostnames
 	Combined into 1 distinct entities
 Procedural-related distinct filters: 21 distinct combined selectors
 	Combined into 35 distinct hostnames
@@ -2373,14 +2370,14 @@ Output rule count: 1623
 		Incompatible with DNR: ||cdn.intergient.com^$redirect-rule=noopjs,domain=arras.*|arras.netlify.app|arrax.io
 CSS-generic: 42 plain CSS selectors
 CSS-generic-high: 3 plain CSS selectors
-CSS-specific: 10629 distinct filters
-	Combined into 11063 distinct hostnames
+CSS-specific: 10633 distinct filters
+	Combined into 11070 distinct hostnames
 	Combined into 83 distinct entities
 CSS-declarative: 624 distinct filters
 	Combined into 2326 distinct hostnames
 	Combined into 25 distinct entities
 Procedural-related distinct filters: 1227 distinct combined selectors
-	Combined into 1539 distinct hostnames
+	Combined into 1538 distinct hostnames
 	Combined into 15 distinct entities
 ============================
 Listset for 'annoyances-social':
@@ -2402,23 +2399,23 @@ Output rule count: 550
 		Rejected filter: hani.co.kr#?#ul[class^="ArticleToolbar_list_"] > li:is(:has(img[alt="인쇄"]), :has(img[alt="공유"]))
 CSS-generic: 768 plain CSS selectors
 CSS-generic-high: 89 plain CSS selectors
-CSS-specific: 10590 distinct filters
-	Combined into 12427 distinct hostnames
+CSS-specific: 10588 distinct filters
+	Combined into 12430 distinct hostnames
 	Combined into 66 distinct entities
 CSS-declarative: 113 distinct filters
 	Combined into 214 distinct hostnames
 	Combined into 7 distinct entities
-Procedural-related distinct filters: 1180 distinct combined selectors
-	Combined into 1202 distinct hostnames
+Procedural-related distinct filters: 1179 distinct combined selectors
+	Combined into 1201 distinct hostnames
 	Combined into 6 distinct entities
 ============================
 Listset for 'annoyances-widgets':
 	Fetched local https://filters.adtidy.org/extension/ublock/filters/22.txt
-Input filter count: 702
-	Accepted filter count: 702
+Input filter count: 703
+	Accepted filter count: 703
 	Rejected filter count: 0
-Output rule count: 459
-	Plain good: 459
+Output rule count: 460
+	Plain good: 460
 
 	Maybe good (regexes): 0
 	redirect=: 0
@@ -2455,23 +2452,23 @@ Output rule count: 412
 		Rejected filter: ||destyy.com^$removeheader=request:user-agent
 		Rejected filter: ||gestyy.com^$removeheader=request:user-agent
 CSS-generic: 7 plain CSS selectors
-CSS-specific: 3575 distinct filters
-	Combined into 3408 distinct hostnames
+CSS-specific: 3576 distinct filters
+	Combined into 3407 distinct hostnames
 	Combined into 31 distinct entities
 CSS-declarative: 396 distinct filters
 	Combined into 811 distinct hostnames
 	Combined into 5 distinct entities
-Procedural-related distinct filters: 504 distinct combined selectors
-	Combined into 585 distinct hostnames
+Procedural-related distinct filters: 505 distinct combined selectors
+	Combined into 586 distinct hostnames
 	Combined into 6 distinct entities
 ============================
 Listset for 'stevenblack-hosts':
 	Fetched local https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-Input filter count: 157538
-	Accepted filter count: 157538
+Input filter count: 158823
+	Accepted filter count: 158823
 	Rejected filter count: 0
 Output rule count: 2
-	Pruning requestDomains: from 157538 to 81437
+	Pruning requestDomains: from 158823 to 81999
 	Plain good: 1
 
 	Maybe good (regexes): 0
